@@ -1,0 +1,262 @@
+body {
+	
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+	font-family: "Open Sans", sans-serif;
+
+}	
+
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 90vh;
+width: 100%;
+
+}
+
+.box-form-box {
+
+background: #fdfdfd;
+display: flex;
+flex-direction: column;
+padding: 25px 25px;
+border-radius: 20px;
+box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+			0 32px 64px -48px rgba(0,0,0,0.5);
+
+width: 450px;
+	margin: 0px 10px;
+
+}
+
+
+.box-form-box header{
+
+	font-size: 25px;
+	font-weight: 600;
+	padding-bottom:10px  ;
+	border-bottom: 1px solid ;
+	margin-bottom: 10px;
+	text-align: center;
+
+
+
+
+}
+.box-form-box form .field{
+
+	display: flex;
+	margin-bottom: 10px;
+	flex-direction: column;
+
+
+}
+.box-form-box form .input input{
+	height: 40px;
+	width: 100%;
+	font-size: 16px;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: 0.5px solid #ccc ;
+	outline: none;
+}
+.loginbutton {
+    height: 35px;
+    background: #ae82ff;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: all .3s;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+
+}
+.loginbutton:hover {
+    background: #7e42f5;
+}
+
+
+
+input{
+
+	width: 100%;
+	padding: 12px;
+	color: #300;
+	margin-bottom: 20px;
+}
+
+
+
+/*********************** Homepage ****************************/
+
+
+.logoutbutton {
+    height: 35px;
+    background: #ae82ff;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    transition: all .3s;
+     cursor: pointer;
+     color: white;
+     font-size: 14px;
+     margin-top: 10px;
+     padding: 0, 10px;
+
+
+}
+.logoutbutton:hover {
+    background: #7e42f5;
+}
+
+
+.nav{
+
+	background: #ae82ff;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 60px;
+	z-index: 100;
+}
+
+.navdiv{
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+	background-image: url(img/LehmanLogo_BlueGreen.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}	
+
+
+
+li {
+
+list-style: none;
+display: inline-block;
+	}
+
+li a {
+
+	color: white;
+	font-size: 30px;	
+	font-weight: bold;
+	margin-right: 25px;
+	text-decoration: none;
+
+
+}	
+
+
+
+main{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+
+
+
+.main-box{
+
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	align-items: center;
+
+}
+
+.main-box .top{
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.
+
+@media only screen and (max-width:840px){
+	.main-box .top{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.top .box{
+			marigin: 10px 10px;
+
+	}
+	
+
+
+/*********************** Add Students ****************************/
+.container2{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 90vh;
+
+
+}
+
+/*********************** Grades and attendance to create a table ****************************/
+
+.table-container {
+  width: 100%;
+  overflow-x: auto; 
+  display: flex;
+align-items: center;
+justify-content: center;
+min-height: 90vh;
+width: 100%;
+
+}
+
+.grades_table {
+  width: max-content;  /* Makes table expand as wide as it needs */
+  border-collapse: collapse;
+}
+
+.grades_table th,
+.grades_table td {
+  
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.box-form-box-table{
+
+background: #fdfdfd;
+display: flex;
+flex-direction: column;
+padding: 25px 25px;
+border-radius: 20px;
+box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+0 32px 64px -48px rgba(0,0,0,0.5);
+margin: 0px 10px;
+
+width: fit-content;
+max-width: 100%;
+overflow: auto;
+
+
+}
